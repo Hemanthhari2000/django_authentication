@@ -63,3 +63,7 @@ def homePage(request):
     context = {}
 
     return render(request, 'registration/home.html', context)
+
+
+def dummy(request):
+    return render(request, 'registration/password_reset_forms.html')
